@@ -1,0 +1,19 @@
+.categoryList {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.categoryList > a {
+  padding: 2px 4px;
+  border-radius: 10px;
+  background-color: #959595;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 gray;
+  transition: box-shadow .3s;
+}
+.categoryList > a:hover {
+  box-shadow: 0 0 25px #cccccc;
+}
